@@ -16,3 +16,8 @@ spring:
     
 server:
   port: 9095
+  
+logging:
+  file:
+    name: logs\microservice.log
+    path: logs\
